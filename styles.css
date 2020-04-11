@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    margin: 40px; 
+}
+img {
+    border-radius: 50px; 
+    width: 100px;
+}
+
+.profile-card {
+    margin-top: 200px;
+}
