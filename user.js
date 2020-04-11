@@ -1,17 +1,7 @@
-function sayHello(person) {
-  console.log(`Hello, my name is ${person.firstName}. I have ${person.eyeColor} eyes. People call me ${person.nickName}.`);
+const users = require('./users.js');
+
+function sayHello(user) {
+  console.log(`Hello, my name is ${user.firstName} ${user.lastName}. People call me ${user.nickName}. I am ${user.activity}.`);
 }
-// const people = ["Sarah", "Maxwell", "Deanne Troi"];
 
-// people.forEach(person => sayHello(person));
-
-const sarah = {
-  height: 66, 
-  eyeColor: 'blue',
-  hairColor: 'Dirty Blonde',
-  firstName: 'Sarah',
-  lastName: 'Morris',
-  nickName: 'Smo',
-  job: 'Account Services',
-};
-sayHello(sarah)
+users.forEach(user => sayHello(user));
