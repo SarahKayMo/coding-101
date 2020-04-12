@@ -1,12 +1,10 @@
 body {
     text-align: center;
     margin: 40px; 
-    $body-bg: #020;
-    $body-color: #100;
 }
 img {
-    border-radius: 50px; 
-    width: 100px;
+    border-radius: 60px; 
+    width: 120px;
 }
 
 .profile-card {
