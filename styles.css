@@ -1,6 +1,8 @@
 body {
     text-align: center;
     margin: 40px; 
+    $body-bg: #000;
+    $body-color: #111;
 }
 img {
     border-radius: 50px; 
