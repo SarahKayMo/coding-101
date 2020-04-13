@@ -6,7 +6,44 @@ img {
     border-radius: 60px; 
     width: 120px;
 }
-
 .profile-card {
     margin-top: 200px;
 }
+.center {
+    margin: auto;
+}
+div {
+    background-color: gainsboro;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid floralwhite;
+    margin: 60;
+    border-radius: 40px; 
+  }
+  a {
+      color: slategray;
+  }
+  ul {
+    list-style-type: none;
+    margin: 70;
+    padding: 0;
+    overflow: hidden;
+    background-color: midnightblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 95px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: gainsboro;
+    color: slategray;
+  }
