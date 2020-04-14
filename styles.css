@@ -13,15 +13,15 @@ img {
     margin: auto;
 }
 div {
-    background-color: gainsboro;
-    width: 320px;
+    background-color: steelblue;
+    width: 220px;
     padding: 10px;
     border: 5px solid floralwhite;
     margin: 60;
     border-radius: 40px; 
   }
   a {
-      color: slategray;
+      color: floralwhite;
   }
   ul {
     list-style-type: none;
